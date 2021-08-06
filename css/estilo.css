@@ -1,0 +1,220 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  margin: 0px;
+  padding: 30px 10%;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav li {
+  display: inline-block;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  margin: 10px;
+  padding-top: 6%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+}
+
+nav button {
+  padding: 2px 12px;
+  background-color: white;
+  border: 1px;
+  border-radius: 10px;
+  border-color: honeydew;
+}
+
+.cuerpo {
+  width: auto;
+  margin: 0px;
+  padding: 5px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2b2b2b), to(#202020));
+  background-image: linear-gradient(#2b2b2b, #202020);
+  background-size: contain;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.producto {
+  width: 95%;
+  margin: 1px;
+  padding: 1px;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.producto div {
+  border: 1px;
+  margin: 1px;
+  padding: 1px;
+  color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 49%;
+  height: 49%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.formulario {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  width: 600px;
+  background-color: black;
+  color: whitesmoke;
+  padding: 50px;
+}
+
+.form {
+  margin: 25px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px;
+}
+
+.fotos_alineadas {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  margin: 0px;
+  padding: 30px 10%;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer li {
+  display: inline-block;
+  margin: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px, 300px, 100px;
+      grid-template-columns: 100px, 300px, 100px;
+}
+
+div {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.cuadros {
+  font-family: 'Oswald', sans-serif;
+  color: whitesmoke;
+  font-size: 25px;
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+button {
+  padding: 2px 12px;
+  background-color: white;
+  border: 1px;
+  border-radius: 10px;
+  border-color: honeydew;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+/*# sourceMappingURL=estilo.css.map */
